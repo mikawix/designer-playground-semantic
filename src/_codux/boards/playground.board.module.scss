@@ -1,0 +1,35 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  line-height: initial;
+  align-items: center;
+  font-size: 16px;
+}
+.title {
+  font-family: FUTURA;
+  margin-top: 15px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+}
+.card {
+  margin: 15px;
+}
+.card-footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.small-title {
+  font-family: FUTURA;
+  font-size: 16px;
+}
